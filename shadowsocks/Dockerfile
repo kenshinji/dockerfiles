@@ -1,5 +1,5 @@
 FROM alpine:latest
-MAINTAINER kenshinji<gundam0083ster@gmail.com>
+MAINTAINER kenshinji
 
 RUN apk --no-cache add wget gzip && cd /
 RUN wget https://github.com/shadowsocks/shadowsocks-go/releases/download/1.1.5/shadowsocks-server-linux64-1.1.5.gz --no-check-certificate
